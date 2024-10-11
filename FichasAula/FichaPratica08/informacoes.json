@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "nome": "Joaquim",
+      "idade": 25,
+      "telemovel": 911222333,
+      "morada": "Porto"
+    },
+    {
+      "nome": "Alberto",
+      "idade": 25,
+      "telemovel": 911222333,
+      "morada": "Porto"
+    }
+  ],
+  {
+    "nome": "Bruno",
+    "idade": 25,
+    "telemovel": 911222333,
+    "morada": "Porto"
+  }
+]
