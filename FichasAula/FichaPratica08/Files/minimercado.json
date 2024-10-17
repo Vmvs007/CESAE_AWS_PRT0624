@@ -1,0 +1,788 @@
+[
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Bacalhau",
+        "quantidade_vendida":20,
+        "preco_unitario":15.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Queijo Serra",
+        "quantidade_vendida":10,
+        "preco_unitario":9.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Azeite",
+        "quantidade_vendida":30,
+        "preco_unitario":7.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Polvo",
+        "quantidade_vendida":5,
+        "preco_unitario":25.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Chourico",
+        "quantidade_vendida":15,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":5,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cabrito",
+        "quantidade_vendida":9,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Sabao Azul e Branco",
+        "quantidade_vendida":50,
+        "preco_unitario":1.75
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Sabao Rosa",
+        "quantidade_vendida":55,
+        "preco_unitario":1.7
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Amaciador da Roupa",
+        "quantidade_vendida":40,
+        "preco_unitario":4.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Pasta de Dentes",
+        "quantidade_vendida":60,
+        "preco_unitario":3.5
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Shampoo Homem 8 em 1",
+        "quantidade_vendida":35,
+        "preco_unitario":6.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Toalhas de Papel",
+        "quantidade_vendida":70,
+        "preco_unitario":2.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Lava-Louca",
+        "quantidade_vendida":25,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Sacos do Lixo",
+        "quantidade_vendida":100,
+        "preco_unitario":4.5
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Vassoura",
+        "quantidade_vendida":20,
+        "preco_unitario":7.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Ambientador de Francesinha",
+        "quantidade_vendida":10,
+        "preco_unitario":9.95
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Alheira",
+        "quantidade_vendida":15,
+        "preco_unitario":8.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":25,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Arroz Carolino",
+        "quantidade_vendida":30,
+        "preco_unitario":2.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":40,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Gel de Banho",
+        "quantidade_vendida":45,
+        "preco_unitario":4.25
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Desodorizante",
+        "quantidade_vendida":30,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Creme Hidratante",
+        "quantidade_vendida":20,
+        "preco_unitario":8.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Luvas de Borracha",
+        "quantidade_vendida":50,
+        "preco_unitario":2.5
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Ambientador",
+        "quantidade_vendida":15,
+        "preco_unitario":6.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Esfregao",
+        "quantidade_vendida":40,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Queijo da Ilha",
+        "quantidade_vendida":10,
+        "preco_unitario":10.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Sardinhas em Lata",
+        "quantidade_vendida":35,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Francesinha Congelada",
+        "quantidade_vendida":5,
+        "preco_unitario":6.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Escova de Dentes",
+        "quantidade_vendida":70,
+        "preco_unitario":2.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Lix\u00edvia",
+        "quantidade_vendida":15,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Condicionador",
+        "quantidade_vendida":25,
+        "preco_unitario":5.5
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Detergente Multiuso",
+        "quantidade_vendida":50,
+        "preco_unitario":3.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Esponja de Cozinha",
+        "quantidade_vendida":80,
+        "preco_unitario":1.75
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Aspirador de Po",
+        "quantidade_vendida":5,
+        "preco_unitario":99.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":350,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Tremo\u00e7os",
+        "quantidade_vendida":43,
+        "preco_unitario":1.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Sagres",
+        "quantidade_vendida":2,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Pate de Sardinha",
+        "quantidade_vendida":90,
+        "preco_unitario":0.65
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Salpicao",
+        "quantidade_vendida":45,
+        "preco_unitario":4.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinagre",
+        "quantidade_vendida":10,
+        "preco_unitario":3.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":20,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Ambientador Bacalhau com Broa",
+        "quantidade_vendida":10,
+        "preco_unitario":9.95
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Rojoes Congelados",
+        "quantidade_vendida":15,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cozido Portuguesa Congelado",
+        "quantidade_vendida":90,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Lulas",
+        "quantidade_vendida":25,
+        "preco_unitario":8.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":100,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Feijao Frade",
+        "quantidade_vendida":20,
+        "preco_unitario":1.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Chouri\u00e7\u00e3o",
+        "quantidade_vendida":12,
+        "preco_unitario":6.75
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Laminas de Barbear BIC",
+        "quantidade_vendida":15,
+        "preco_unitario":2.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":19,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Sabonete Artesanal",
+        "quantidade_vendida":8,
+        "preco_unitario":4.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Papel Higi\u00e9nico",
+        "quantidade_vendida":50,
+        "preco_unitario":2.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Candeeiro de Mesa",
+        "quantidade_vendida":5,
+        "preco_unitario":19.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Almofada Decorativa",
+        "quantidade_vendida":10,
+        "preco_unitario":12.5
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"T\u00e1bua de Passar a Ferro",
+        "quantidade_vendida":8,
+        "preco_unitario":24.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Caf\u00e9 em Grao",
+        "quantidade_vendida":40,
+        "preco_unitario":7.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Doce de Ab\u00f3bora",
+        "quantidade_vendida":18,
+        "preco_unitario":3.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":99,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Bolachas de Manteiga",
+        "quantidade_vendida":30,
+        "preco_unitario":2.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Perfume Floral",
+        "quantidade_vendida":12,
+        "preco_unitario":29.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":40,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Escova de Cabelo",
+        "quantidade_vendida":20,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Lix\u00edvia",
+        "quantidade_vendida":15,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Porta-Chaves Decorativo",
+        "quantidade_vendida":5,
+        "preco_unitario":8.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Esfregona",
+        "quantidade_vendida":12,
+        "preco_unitario":15.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Desentupidor de Canos",
+        "quantidade_vendida":3,
+        "preco_unitario":6.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Past\u00e9is de Nata Congelados",
+        "quantidade_vendida":40,
+        "preco_unitario":4.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Marmelada",
+        "quantidade_vendida":25,
+        "preco_unitario":3.75
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"P\u00e3o de Centeio",
+        "quantidade_vendida":15,
+        "preco_unitario":2.25
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Sabonete L\u00edquido",
+        "quantidade_vendida":30,
+        "preco_unitario":4.5
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Removedor de Verniz",
+        "quantidade_vendida":12,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Caixa de Arruma\u00e7\u00e3o",
+        "quantidade_vendida":5,
+        "preco_unitario":11.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":35,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Varal de Roupa",
+        "quantidade_vendida":18,
+        "preco_unitario":7.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Desodorizante para Arm\u00e1rios",
+        "quantidade_vendida":10,
+        "preco_unitario":5.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Queijadas",
+        "quantidade_vendida":15,
+        "preco_unitario":6.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Empadas Congeladas",
+        "quantidade_vendida":20,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Sumo de Laranja Natural",
+        "quantidade_vendida":30,
+        "preco_unitario":2.75
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Condicionador para Barba",
+        "quantidade_vendida":8,
+        "preco_unitario":7.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Batom Hidratante",
+        "quantidade_vendida":15,
+        "preco_unitario":12.5
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Pasta de Banho",
+        "quantidade_vendida":25,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":50,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":5,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":40,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Almofadas para Cadeiras",
+        "quantidade_vendida":12,
+        "preco_unitario":4.5
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Repelente de Insetos",
+        "quantidade_vendida":10,
+        "preco_unitario":8.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Caneca T\u00e9rmica",
+        "quantidade_vendida":6,
+        "preco_unitario":9.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Pimentos",
+        "quantidade_vendida":12,
+        "preco_unitario":2.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Leite de Cabra",
+        "quantidade_vendida":18,
+        "preco_unitario":1.75
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Camar\u00e3o Selvagem",
+        "quantidade_vendida":8,
+        "preco_unitario":19.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Lix\u00edvia",
+        "quantidade_vendida":10,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Autobronzeador",
+        "quantidade_vendida":5,
+        "preco_unitario":14.5
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Desinfetante de M\u00e3os",
+        "quantidade_vendida":40,
+        "preco_unitario":3.25
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Spray Fixador de Cabelo",
+        "quantidade_vendida":15,
+        "preco_unitario":7.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Organizador de Gavetas",
+        "quantidade_vendida":10,
+        "preco_unitario":6.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Inseticida",
+        "quantidade_vendida":8,
+        "preco_unitario":4.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":12,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"L\u00e2mpada LED",
+        "quantidade_vendida":25,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":11,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Mel de Rosmaninho",
+        "quantidade_vendida":20,
+        "preco_unitario":5.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Pipocas de Milho",
+        "quantidade_vendida":30,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":2,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":10,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Frutos Secos",
+        "quantidade_vendida":15,
+        "preco_unitario":8.75
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Esfoliante Facial",
+        "quantidade_vendida":12,
+        "preco_unitario":9.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Anti-Mofo",
+        "quantidade_vendida":5,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Porta-Revistas",
+        "quantidade_vendida":8,
+        "preco_unitario":10.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Conjunto de Talheres",
+        "quantidade_vendida":15,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Tremo\u00e7os",
+        "quantidade_vendida":20,
+        "preco_unitario":1.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Chocolate Negro",
+        "quantidade_vendida":22,
+        "preco_unitario":3.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Molho de Piri-Piri",
+        "quantidade_vendida":10,
+        "preco_unitario":2.5
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"M\u00e1scara Facial",
+        "quantidade_vendida":30,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Creme para as M\u00e3os",
+        "quantidade_vendida":20,
+        "preco_unitario":6.5
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":6,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Condicionador Seco",
+        "quantidade_vendida":8,
+        "preco_unitario":8.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Tapete de Banho",
+        "quantidade_vendida":12,
+        "preco_unitario":7.25
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"\u00d3leo Lubrificante",
+        "quantidade_vendida":5,
+        "preco_unitario":4.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":2,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Produtos para Casa",
+        "produto":"Baldes de Reciclagem",
+        "quantidade_vendida":3,
+        "preco_unitario":15.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Leite Condensado",
+        "quantidade_vendida":15,
+        "preco_unitario":1.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Sementes de Ab\u00f3bora",
+        "quantidade_vendida":10,
+        "preco_unitario":4.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":90,
+        "preco_unitario":5.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":445,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Tiramisu",
+        "quantidade_vendida":8,
+        "preco_unitario":7.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Pilhas AA",
+        "quantidade_vendida":20,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Higiene",
+        "produto":"Fio Dental",
+        "quantidade_vendida":15,
+        "preco_unitario":2.25
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Presunto",
+        "quantidade_vendida":12,
+        "preco_unitario":12.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Cerveja Super Bock",
+        "quantidade_vendida":20,
+        "preco_unitario":0.99
+    },
+    {
+        "tipo_produto":"Alimentacao",
+        "produto":"Vinho Verde",
+        "quantidade_vendida":44,
+        "preco_unitario":5.99
+    }
+]
