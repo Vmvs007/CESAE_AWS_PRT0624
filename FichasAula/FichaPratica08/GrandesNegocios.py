@@ -11,10 +11,14 @@ with open('Files/login_grandesNegocios.json', 'r') as f:
 # Função para login
 def login():
     tipo_conta = None
-    user = input("Insira o nome de utilizador: ")
-    password = input("Insira a password: ")
+    user = input("Insira o nome de utilizador (C para Cliente): ")
+    password = input("Insira a password (C para Cliente): ")
+
+    if user == "C" and password == "C":
+        tipo_conta = "CLIENTE"
+
     for conta in contas:
-        if conta['utilizador'] == user and conta['password'] == password:
+        if (conta['utilizador'] == user and conta['password'] == password):
             tipo_conta = conta['tipo_conta']
             break
     if tipo_conta:
@@ -30,16 +34,18 @@ def consultar_produtos_disponiveis():
     for item in vendas:
         if item['produto'] not in produtos:
             produtos.append(item['produto'])
-    print("Produtos disponíveis:", ", ".join(produtos))
+    for produto in produtos:
+        print(produto)
 
 
 def consultar_produto_categoria(categoria):
     produtos = []
     for item in vendas:
-        if item['tipo_produto'] == categoria:
+        if item['tipo_produto'].lower() == categoria.lower():
             produtos.append(item['produto'])
     if produtos:
-        print(f"Produtos da categoria {categoria}: ", ", ".join(produtos))
+        for produto in produtos:
+            print(produto)
     else:
         print(f"Não há produtos na categoria {categoria}")
 
@@ -63,6 +69,7 @@ def produto_mais_caro():
 
     return mais_caro
 
+
 def adicionar_venda():
     produto = input("Insira o nome do produto: ")
     quantidade = int(input("Insira a quantidade vendida: "))
@@ -84,8 +91,7 @@ def analisar_produto_mais_vendido():
         if item['quantidade_vendida'] > produto_mais_vendido['quantidade_vendida']:
             produto_mais_vendido = item
 
-    print(
-        f"Produto que vendeu mais unidades: {produto_mais_vendido['produto']} - {produto_mais_vendido['quantidade_vendida']} unidades")
+    return produto_mais_vendido
 
 
 def analisar_produto_maior_valor():
@@ -97,7 +103,7 @@ def analisar_produto_maior_valor():
         if valor_item > valor_produto:
             produto_maior_valor = item
 
-    print(f"Produto que gerou mais valor de vendas: {produto_maior_valor['produto']}")
+    return produto_maior_valor
 
 
 def total_vendas():
@@ -105,6 +111,7 @@ def total_vendas():
     for item in vendas:
         total += item['quantidade_vendida'] * item['preco_unitario']
     return total
+
 
 def media_vendas():
     total = total_vendas()
@@ -127,7 +134,8 @@ def menu():
             escolha = input("Escolha uma opção: ")
             if escolha == "1":
                 produto = analisar_produto_mais_vendido()
-                print(f"Produto que vendeu mais unidades: {produto['produto']} - {produto['quantidade_vendida']} unidades")
+                print(
+                    f"Produto que vendeu mais unidades: {produto['produto']} - {produto['quantidade_vendida']} unidades")
             elif escolha == "2":
                 produto = analisar_produto_maior_valor()
                 print(f"Produto que gerou mais valor de vendas: {produto['produto']}")
@@ -151,7 +159,7 @@ def menu():
             elif escolha == "0":
                 break
 
-    elif tipo_conta == None:
+    elif tipo_conta == "CLIENTE":
         while True:
             print("\nMenu de Cliente:")
             print("1. Consultar produtos disponíveis")
@@ -159,7 +167,7 @@ def menu():
             print("3. Consultar produto mais barato e mais caro")
             print("0. Sair")
             escolha = input("Escolha uma opção: ")
-            
+
             if escolha == "1":
                 consultar_produtos_disponiveis()
 
