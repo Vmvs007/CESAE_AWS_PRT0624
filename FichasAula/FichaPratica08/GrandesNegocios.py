@@ -1,18 +1,18 @@
 import json
 
 # Carregar os ficheiros JSON
-with open('minimercado.json', 'r') as f:
+with open('Files/minimercado.json', 'r') as f:
     vendas = json.load(f)
 
-with open('login_grandesNegocios.json', 'r') as f:
+with open('Files/login_grandesNegocios.json', 'r') as f:
     contas = json.load(f)
 
 
 # Função para login
 def login():
     tipo_conta = None
-    user = input("Digite o nome de utilizador: ")
-    password = input("Digite a password: ")
+    user = input("Insira o nome de utilizador: ")
+    password = input("Insira a password: ")
     for conta in contas:
         if conta['utilizador'] == user and conta['password'] == password:
             tipo_conta = conta['tipo_conta']
@@ -44,26 +44,31 @@ def consultar_produto_categoria(categoria):
         print(f"Não há produtos na categoria {categoria}")
 
 
-def produto_mais_barato_caro():
+def produto_mais_barato():
     mais_barato = vendas[0]
-    mais_caro = vendas[0]
 
     for item in vendas:
         if item['preco_unitario'] < mais_barato['preco_unitario']:
             mais_barato = item
+
+    return mais_barato
+
+
+def produto_mais_caro():
+    mais_caro = vendas[0]
+
+    for item in vendas:
         if item['preco_unitario'] > mais_caro['preco_unitario']:
             mais_caro = item
 
-    print(f"Produto mais barato: {mais_barato['produto']} - {mais_barato['preco_unitario']:.2f}€")
-    print(f"Produto mais caro: {mais_caro['produto']} - {mais_caro['preco_unitario']:.2f}€")
-
+    return mais_caro
 
 def adicionar_venda():
-    produto = input("Digite o nome do produto: ")
-    quantidade = int(input("Digite a quantidade vendida: "))
-    preco_unitario = float(input("Digite o preço unitário: "))
+    produto = input("Insira o nome do produto: ")
+    quantidade = int(input("Insira a quantidade vendida: "))
+    preco_unitario = float(input("Insira o preço unitário: "))
     nova_venda = {
-        "tipo_produto": input("Digite o tipo do produto: "),
+        "tipo_produto": input("Insira o tipo do produto: "),
         "produto": produto,
         "quantidade_vendida": quantidade,
         "preco_unitario": preco_unitario
@@ -99,15 +104,12 @@ def total_vendas():
     total = 0
     for item in vendas:
         total += item['quantidade_vendida'] * item['preco_unitario']
-    print(f"Total de vendas: {total:.2f}€")
-
+    return total
 
 def media_vendas():
-    total = 0
-    for item in vendas:
-        total += item['quantidade_vendida'] * item['preco_unitario']
+    total = total_vendas()
     media = total / len(vendas) if vendas else 0
-    print(f"Média das vendas: {media:.2f}€")
+    return media
 
 
 # Menu principal
@@ -124,13 +126,17 @@ def menu():
             print("0. Sair")
             escolha = input("Escolha uma opção: ")
             if escolha == "1":
-                analisar_produto_mais_vendido()
+                produto = analisar_produto_mais_vendido()
+                print(f"Produto que vendeu mais unidades: {produto['produto']} - {produto['quantidade_vendida']} unidades")
             elif escolha == "2":
-                analisar_produto_maior_valor()
+                produto = analisar_produto_maior_valor()
+                print(f"Produto que gerou mais valor de vendas: {produto['produto']}")
             elif escolha == "3":
-                total_vendas()
+                total = total_vendas()
+                print(f"Total de vendas: {total:.2f}€")
             elif escolha == "4":
-                media_vendas()
+                media = media_vendas()
+                print(f"Média das vendas: {media:.2f}€")
             elif escolha == "0":
                 break
 
@@ -153,13 +159,20 @@ def menu():
             print("3. Consultar produto mais barato e mais caro")
             print("0. Sair")
             escolha = input("Escolha uma opção: ")
+            
             if escolha == "1":
                 consultar_produtos_disponiveis()
+
             elif escolha == "2":
-                categoria = input("Digite a categoria: ")
+                categoria = input("Insira a categoria: ")
                 consultar_produto_categoria(categoria)
+
             elif escolha == "3":
-                produto_mais_barato_caro()
+                mais_barato = produto_mais_barato()
+                print(f"Produto mais barato: {mais_barato['produto']} - {mais_barato['preco_unitario']:.2f}€")
+                mais_caro = produto_mais_caro()
+                print(f"Produto mais caro: {mais_caro['produto']} - {mais_caro['preco_unitario']:.2f}€")
+
             elif escolha == "0":
                 break
 
